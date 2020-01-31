@@ -1,0 +1,186 @@
+html body {
+  width: 60%;
+  height: 100%;
+  margin:  auto;
+  font-family: sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav ul {
+  background-color: red;
+  overflow: hidden;
+  text-align: left;
+  margin: auto;
+  
+   }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px; }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: yellow;
+  color: black; }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkgrey;
+  color: white; }
+
+.topnav li {
+  float: left;
+  list-style-type: none; }
+
+.header {
+  background: #ffe6e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#head1 {
+  height: 50px; }
+
+#head2 {
+  width: 50%;
+}
+
+#secondNav a {
+  font-size: 15px;
+}
+
+#secondNav ul {
+  background-color: black;
+}
+
+footer {
+  background-color: #000000; }
+
+footer img {
+  width: 250px;
+  padding-top: 10px; }
+
+footer p {
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: center; }
+
+.footerImg {
+  text-align: right; }
+
+
+.container1 {
+  width: 100%;
+}
+
+.hero  {
+  background-image: url("img/traffic-332857_1920.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+}
+
+.car {
+  color: white;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.grey {
+  background-color: lightgrey;
+  text-align:  center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  
+}
+
+.input{
+  background-color: rgba(255,255,255,0.6);
+  width: 90%;
+  margin-left: 5%;
+  text-align:  center;
+  border: 2px solid black;
+  position: relative;
+  top: 20px;
+} 
+
+.input h1 {
+
+}
+
+#button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+label {
+  width: 40%;
+  display: inline-block;
+  margin-right: 9%;
+  font-size: 10px;
+  margin-bottom: 10px; 
+}
+
+.fields {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+input, select {
+  width: 100%;
+  display: inline-block;
+  font-size: 18px;
+}
+
+#result {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  color: green;
+  font-size: 30px;
+}
+
+.box {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.boxCont {
+  width: 49%;
+  display: inline-block;
+}
+
+.boxes {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid grey;
+  border-top: 3px solid black;
+  display: inline-block;
+  padding: 5%;
+}
+
+.boxes h2 {
+  color: blue;
+}
+
+.boxes ul {
+  list-style-image: url("img/check.png");
+}
